@@ -234,7 +234,7 @@ metaworld:
   action_repeat: 2
   train_every: 5
   train_steps: 1
-  environment_reward_scale: .01
+  environment_reward_scale: .001
 
   # Model
   grad_heads: ['image', 'reward']
